@@ -21,15 +21,17 @@ namespace WinformPanelTest
         {
             this.panel1.BackColor = Color.Gray;
             //this.panel1.ForeColor = Color.Gray;
-            Button button = new Button();
-            button.Click += Button_Click;
-            button.Text = "TestB";
+            //Button button = new Button();
+            //button.Click += Button_Click;
+            //button.Text = "TestB";
+            
+
             Panel panelTest = new Panel();
             panelTest.BackColor = Color.Red;
             //panelTest.ForeColor = Color.Red;
             this.panel1.Controls.Add(panelTest);
-            this.panel1.Controls.Add(button);
-            button.BringToFront();
+            //this.panel1.Controls.Add(button);
+            //button.BringToFront();
 
             //this.panel1.SetChildIndex(1)
         }
